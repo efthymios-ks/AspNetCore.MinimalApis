@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Asp.Versioning.Http" />
+		<PackageReference Include="Swashbuckle.AspNetCore" />
+	</ItemGroup>
+
+	<ItemGroup Label="Access internals for test projects">
+		<InternalsVisibleTo Include="Microsoft.AspNetCore.MinimalApis.Tests" />
+		<InternalsVisibleTo Include="Microsoft.AspNetCore.MinimalApis.Redis" />
+		<InternalsVisibleTo Include="DynamicProxyGenAssembly2" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,21 @@
+@page "/views-index"
+@model Samples.MinimalApis.Views.ViewsIndex.ViewsIndexModel
+
+@{
+    ViewData["Title"] = "Views";
+}
+
+<link rel="stylesheet" href="/views/ViewsIndex/ViewsIndex.css" />
+
+<h1 class="views-index__heading">Views</h1>
+
+<ul class="views-index__list">
+    @foreach (var route in Model.Routes)
+    {
+        <li class="views-index__item">
+            <a class="views-index__link" href="@route">@route</a>
+        </li>
+    }
+</ul>
+
+<script src="/views/ViewsIndex/ViewsIndex.js"></script>

@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Samples.MinimalApis": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:64977;http://localhost:64978"
+    }
+  }
+}

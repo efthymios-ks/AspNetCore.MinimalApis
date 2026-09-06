@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Samples.FastEndpoints": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:64974;http://localhost:64975"
+    }
+  }
+}

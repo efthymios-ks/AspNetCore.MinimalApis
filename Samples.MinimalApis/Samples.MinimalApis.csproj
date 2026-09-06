@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<ItemGroup>
+		<ProjectReference Include="..\Microsoft.AspNetCore.MinimalApis\Microsoft.AspNetCore.MinimalApis.csproj" />
+		<ProjectReference Include="..\Microsoft.AspNetCore.MinimalApis.Redis\Microsoft.AspNetCore.MinimalApis.Redis.csproj" />
+		<ProjectReference Include="..\Microsoft.AspNetCore.MinimalApis.Analyzers\Microsoft.AspNetCore.MinimalApis.Analyzers.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+		<ProjectReference Include="..\Samples.Shared\Samples.Shared.csproj" />
+	</ItemGroup>
+
+</Project>

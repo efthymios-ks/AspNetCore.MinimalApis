@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<ItemGroup>
+		<PackageReference Include="StackExchange.Redis" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Microsoft.AspNetCore.MinimalApis\Microsoft.AspNetCore.MinimalApis.csproj" />
+	</ItemGroup>
+
+	<ItemGroup Label="Access internals for test projects">
+		<InternalsVisibleTo Include="Microsoft.AspNetCore.MinimalApis.Tests" />
+		<InternalsVisibleTo Include="DynamicProxyGenAssembly2" />
+	</ItemGroup>
+
+</Project>

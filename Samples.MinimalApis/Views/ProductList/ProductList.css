@@ -1,0 +1,25 @@
+.product-list__heading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.product-list__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-list__table th,
+.product-list__table td {
+    text-align: left;
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.product-list__table th {
+    background-color: #f5f5f5;
+    font-weight: 600;
+}
+
+.product-list__table tr:hover td {
+    background-color: #fafafa;
+}

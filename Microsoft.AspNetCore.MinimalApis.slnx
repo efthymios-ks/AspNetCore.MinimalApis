@@ -1,0 +1,28 @@
+<Solution>
+  <Folder Name="/.claude/" />
+  <Folder Name="/.claude/skills/" />
+  <Folder Name="/.claude/skills/minimal-apis-migration/">
+    <File Path=".claude/skills/minimal-apis-migration/REFERENCE.md" />
+    <File Path=".claude/skills/minimal-apis-migration/SKILL.md" />
+  </Folder>
+  <Folder Name="/.claude/skills/minimal-apis/">
+    <File Path=".claude/skills/minimal-apis/REFERENCE.md" />
+    <File Path=".claude/skills/minimal-apis/SKILL.md" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="LICENSE" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="Microsoft.AspNetCore.MinimalApis.Tests/Microsoft.AspNetCore.MinimalApis.Tests.csproj" />
+  <Project Path="Microsoft.AspNetCore.MinimalApis/Microsoft.AspNetCore.MinimalApis.csproj" Id="52c13b4d-52c4-42de-8374-80f10e18c78d" />
+  <Project Path="Microsoft.AspNetCore.MinimalApis.Redis/Microsoft.AspNetCore.MinimalApis.Redis.csproj" />
+  <Project Path="Microsoft.AspNetCore.MinimalApis.Analyzers/Microsoft.AspNetCore.MinimalApis.Analyzers.csproj" />
+  <Project Path="Microsoft.AspNetCore.MinimalApis.Testing/Microsoft.AspNetCore.MinimalApis.Testing.csproj" />
+  <Project Path="Samples.FastEndpoints/Samples.FastEndpoints.csproj" />
+  <Project Path="Samples.MinimalApis/Samples.MinimalApis.csproj" />
+  <Project Path="Samples.Shared/Samples.Shared.csproj" />
+</Solution>
